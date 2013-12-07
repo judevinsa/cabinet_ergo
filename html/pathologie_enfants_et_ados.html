@@ -10,45 +10,80 @@
 
 
 	<body>
-
+	<div id="bloc_page">
 		<header>
-			Logo + Cabinet Ergothérapie ...
+			<h1>
+			<div id="logo_cabinet">
+				Logo
+			</div>
+			<div id="titre cabinet">
+				Cabinet Ergothérapie ...
+			</div>
+			</h1>	
 		</header>
 		
 		<nav>
-			<div class="accueil">
-				Accueil
-			</div>
-			<div class="ergotherapie">
-				Présentation Ergothérapie
-			</div>
-			<div class="pathologie">
-				Les pathologies par population
-				<div classe="pathologie_enfants_et_ados">Enfants et ados</div>
-				<div classe="pathologie_adultes">Adultes</div>
-				<div classe="pathologie_pers_agees">Personnes agées</div>			
-			</div>
-			<div class="contact">
-				Contact
+			<div id="menu">
+				<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="ergotherapie.html">Présentation Ergothérapie</a></li>
+				<li><div id= "patho">Les pathologies par population</div>
+					<div id="sous_menu">
+						<ul>
+						<li><a href="pathologie_enfants_et_ados.html">Enfants et ados</a></li>
+						<li><a href="pathologie_adultes.html">Adultes</a></li>
+						<li><a href="pathologie_pers_agees.html">Personnes agées</a></li>
+						</ul>		
+					</div>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>				
 			</div>
 		</nav>
+		
 
 		<section>
 			<h1>
-				Site Web
-			</h1>
-		</section>
-
-		<section>
+				Enfants et Adolescents
+			</h1> 
+			<h2>                    
+				Quels troubles ?
+			</h2>
 			<p>
-				Site Web 2
+				Troubles des apprentissages : dyspraxie, dyslexie et/ou des troubles associés (dysgraphie, dyscalculie…).<br/>
+				Troubles déficitaires de l’attention avec ou sans hyperactivité (TDA/H).<br/>
+				Troubles envahissants du développement (autisme).<br/>
+				Paralysie cérébrale, maladies génétiques, troubles neurologiques ou traumatologiques.
 			</p>
+			<h2>
+				Comment ?
+			</h2>
+			<p>
+				En évaluant la plainte et de l’enfant et de son entourage : retentissements scolaires et quotidien des difficultés.<br/>
+				En développant des compensations, pour contourner les difficultés de l’enfant.<br/> 					Apprendre à faire autrement par des activités et des jeux.<br/>
+				En faisant le lien avec l’école pour expliquer les troubles et pouvoir adapter les apprentissages.
+			</p>
+			<h2>
+				Où ?
+			</h2>
+			<p>
+			<ul>
+				<li>à domicile</li>
+				<li>en milieu scolaire</li>
+			</ul>
+			</p> 
+		
 		</section>
 
 		<footer>
-			<p> Nom, prénom, Adresse </p>
-			<p> E-mail </p>
+			<div id="fnom"><h1>Gaëlle ROLLET</h1></div>
+			<div id="ftitre"><h1>Ergothérapeute D.E</h1></div>
+			<div id="fmail"><h2> gaelle.rollet@live.fr </h2></div>
+			<div id="fnum"><h2> 06.25.91.11.39 </h2></div>
+			<div id="fsiret"><p> N° Siret : 753 301 62100029 </p></div>
+			<div id="fape"><p> Code APE : 86.90 - E </p></div>
 		</footer>
+	</div>
 	</body>
 
 </html>

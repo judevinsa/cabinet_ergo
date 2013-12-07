@@ -5,3 +5,82 @@ body
         background-repeat: no-repeat;
         background-position: top center;
 }
+
+body
+{
+	color: white;
+}
+
+header h1
+{
+        font-family: Verdana, sans-serif;
+        text-align: center;
+        border: 4px green inset;
+        border-radius: 15px;
+}
+
+section
+{
+	
+	margin-left: 50px;
+	margin-right: 50px;
+}	
+
+
+section h1
+{
+	font-size: 1.6em;
+	text-align: center;
+		
+}
+
+section h2
+{
+	font-size: 1.2em;
+}
+	
+nav
+{
+	display: inline-block;
+	text-align: left;
+	border: 2px blue solid;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: gray;
+	
+}
+
+footer
+{
+	text-align: center;
+	margin-top: 60px;
+	border: 2px gray solid;
+	width: 300px;
+	margin-left: 350px;
+	
+}
+
+footer h1
+{
+	font-size: 1.0em;
+}
+
+footer h2
+{
+	font-size: 0.8em;
+}
+
+footer p
+{
+	font-size: 0.6em;
+}
