@@ -1,22 +1,39 @@
 body
 {
-        background-image: url("http://img26.xooimage.com/files/f/4/8/fond-mania-design-1cab50e.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: top center;
 }
 
-body
+nav
 {
-	color: white;
+	margin-top: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content
+{
+	margin-top: 100px;
+}
+
+header
+{
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	background-image: linear-gradient(cyan,white);
+}
+
+#logoCab
+{
+
 }
 
 header h1
 {
         font-family: Verdana, sans-serif;
         text-align: center;
-        border: 4px green inset;
-        border-radius: 15px;
 }
 
 section
@@ -84,3 +101,12 @@ footer p
 {
 	font-size: 0.6em;
 }
+
+
+
+
+
+
+
+
+
